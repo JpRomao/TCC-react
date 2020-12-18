@@ -1,0 +1,25 @@
+.footer-container {
+  margin-top: 1.8rem;
+  background: var(--color-box-footer);
+}
+
+.footer-container footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  color: #000;
+  font-size: 1.7rem;
+}
+
+.footer-container a {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.links {
+  margin-top: 1rem;
+}

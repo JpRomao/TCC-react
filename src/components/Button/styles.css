@@ -1,0 +1,20 @@
+.btn {
+  width: 12.4rem;
+  height: 3.7rem;
+  margin-top: 4rem;
+
+  border: none;
+  border-radius: 1.6rem;
+  cursor: pointer;
+
+  color: #FFF;
+  font-size: 2.3rem;
+  font-weight: bold;
+  background: var(--color-primary);
+
+  transition: 1.4s;
+}
+
+.btn:hover {
+  background: var(--color-primary-darker);
+}

@@ -1,0 +1,42 @@
+.page-header .top-bar-container .logo-container a img {
+  height: 11rem;
+}
+
+.list-student {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 1.6rem;
+}
+
+.list-student .table-list {
+  display: table;
+  position: relative;
+}
+
+.table-list .table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+tr, td, th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+}
+
+@media (min-width: 700px) {
+  .page-header .top-bar-container .logo-container a img {
+    height: 12rem;
+  }
+}

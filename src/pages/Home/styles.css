@@ -1,0 +1,82 @@
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.buttons-container a, .buttons-container button.btn-students {
+  width: 22rem;
+  height: 8.5rem;
+  border-radius: 0.7rem;
+  font: 700 3.6rem Archivo;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  text-decoration: none;
+  color: var(--color-button-text);
+
+  transition: background-color 0.2s;
+}
+
+.buttons-container button.btn-students {
+  cursor: default;
+  border: none;
+  background: var(--color-primary);
+  font-size: 5.8rem;
+  width: 90%;
+  padding: 3.2rem;
+}
+
+.buttons-container button.btn-students:hover {
+  background: var(--color-primary-dark);
+}
+
+.buttons-container button img {
+  width: 50px;
+  margin-left: 1rem;
+}
+
+.buttons-container .dropdown-content-students {
+  display: none;
+  position: relative;
+  z-index: 1;
+  margin-left: 2rem;
+}
+
+.buttons-container .dropdown-content-students a {
+  text-decoration: none;
+  border: 1px solid black;
+  background: var(--color-secondary);
+  width: 22rem;
+  height: 8.5rem;
+  display: block;
+}
+
+.dropdown-students:hover .dropdown-content-students {
+  margin-top: 0.5px;
+  position: absolute;
+  display: block;
+}
+
+.dropdown-students .dropdown-content-students a:hover {
+  background: var(--color-secondary-dark);
+}
+
+.buttons-container .dropdown-content-students a:first-child {
+  margin-bottom: 1px;
+}
+
+@media (min-width: 700px) {
+  .buttons-container {
+    margin-top: -3rem;
+    margin-bottom: 8rem;
+  }
+
+  .page-header .top-bar-container .logo-container a img {
+    height: 12rem;
+  }
+}

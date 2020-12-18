@@ -1,0 +1,24 @@
+main {
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+  width: 100%;
+
+  border: 1px solid #000;
+  border-radius: 2rem;
+  padding: 1.6rem;
+  margin-bottom: 1.8rem;
+}
+
+@media (min-width: 700px) {
+  .form-container {
+    width: 80%;
+  }
+}
